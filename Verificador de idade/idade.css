@@ -1,0 +1,40 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(83,83,235);
+    font: normal 15pt Arial, sans-serif;
+}
+
+section{
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.295);
+    text-align: center;
+}
+#txtano{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#button{
+    width: calc(100% - 20px);
+    background-color: #5363ed;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3 ease;
+}
+#button:hover{
+    background-color: #8690e4;
+}
